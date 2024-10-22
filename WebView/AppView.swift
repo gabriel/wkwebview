@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct AppView: View {
-    @State var url: String = "https://www.example.com"
+    @State var url: String = "http://localhost:8080"
 
     @ViewBuilder
     var webView: some View {
